@@ -1,55 +1,38 @@
 # Z-Transform Analysis
-What I Have Accomplished
-I have successfully completed a comprehensive analysis of Z-transforms utilizing MATLAB for both computational verification and theoretical exploration. The project encompassed multiple dimensions of digital signal processing concepts.
+What I Did
+I completed five MATLAB tasks about Z-transforms:
 
-Task 1: MATLAB Programming Implementation
-A1 – Finite Sequences Analysis
-I computed the Z-transforms for finite sequences and demonstrated their polynomial representations. The Region of Convergence (ROC) for finite sequences was elucidated, highlighting their convergence properties across the entire z-plane excluding singularities.
+A1 - Finite Sequences
 
-A2 – Infinite Sequences & ROC Determination
-I derived analytical expressions for infinite sequences including both right-sided and left-sided sequences. The critical relationship between pole locations and ROC boundaries was extensively examined, with MATLAB validation confirming theoretical predictions.
+Found Z-transforms for short sequences
 
-A3 – Z-Transform Properties Verification
-I applied linearity and time-shifting properties to compute transforms of modified sequences. The MATLAB symbolic toolbox provided robust verification of these fundamental properties, demonstrating consistency between analytical and computational approaches.
+Learned that finite sequences work for all z-values
 
-A4 – Inverse Z-Transform Computation
-I employed both analytical inspection and MATLAB's iztrans function to recover time-domain sequences from their Z-domain representations. The correlation between pole locations and sequence characteristics was thoroughly investigated.
+A2 - Infinite Sequences
 
-A5 – System Analysis & Filter Characterization
-I conducted a comprehensive analysis of a given transfer function, including pole-zero plotting, frequency response computation, and filter classification. The intimate connection between pole-zero configuration and filter behavior was substantiated through graphical representations.
+Calculated Z-transforms for sequences like aⁿu[n]
 
-Key Technical Achievements
-MATLAB Symbolic Toolbox Mastery: Leveraged sophisticated symbolic computation capabilities for transform analysis
+Understood how ROC changes with different sequences
 
-Theoretical-Practical Integration: Bridged abstract mathematical concepts with concrete computational implementations
+A3 - Properties
 
-Visualization Proficiency: Generated informative plots including pole-zero diagrams and frequency response curves
+Used linearity and time-shift rules
 
-Filter Characterization: Identified filter types based on pole-zero patterns and frequency response characteristics
+Verified answers with MATLAB
 
-Computational Methodologies Employed
-The project utilized advanced MATLAB functionalities including:
+A4 - Inverse Z-Transform
 
-Symbolic mathematics for analytical transform computation
+Went from Z-domain back to time-domain
 
-Digital filter analysis tools (zplane, freqz)
+Used pole locations to predict sequence type
 
-Sequence generation and manipulation techniques
+A5 - Filter Analysis
 
-Graphical representation of complex mathematical relationships
+Plotted poles and zeros on z-plane
 
-Substantive Outcomes
-The implementation yielded profound insights into:
+What I Learned
+Z-transforms help understand digital filters and system stability. MATLAB makes it easier to visualize complex math concepts.
 
-ROC dependencies on sequence properties
+Analyzed frequency response
 
-Pole-zero influences on system stability
-
-Filter behavior prediction from transfer functions
-
-Practical applications of Z-transform theory in digital signal processing
-
-This endeavor represents a significant advancement in understanding transform-domain analysis techniques and their practical implementation in computational environments.
-
-
-
+Identified it as a band-pass filter
